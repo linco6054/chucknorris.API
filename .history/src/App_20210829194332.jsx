@@ -9,7 +9,6 @@ import Joke from "./routes/Joke";
 function App() {
   const dispatch = useDispatch();
   const categories = useSelector((state) => state?.categories_list?.categories);
-  alert("Categories");
   useEffect(() => {
     if (!categories) {
       console.log("No categories found");
