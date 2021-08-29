@@ -21,9 +21,8 @@ function Home() {
         Click to open a category Joke
       </p>
       <div className="container h-auto w-full overflow-hidden pl-12 lg:pl-24 pt-4 flex flex-wrap ">
-        {categories.map((cat, i) => (
-          <Card key={i} cat={cat} />
-        ))}
+        
+        {categories && categories.map((cat, i) => <Card key={i} cat={cat} />)}
       </div>
     </div>
   );
