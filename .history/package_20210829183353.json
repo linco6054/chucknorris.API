@@ -1,5 +1,4 @@
-{
-  "homepage": "http://linco6054.github.io/chucknorris.API",
+{"homepage": "http://linco6054",
   "name": "codingchallenge",
   "version": "0.1.0",
   "private": true,
@@ -21,8 +20,6 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "craco start",
     "build": "craco build",
     "test": "craco test",
