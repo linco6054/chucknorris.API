@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/chucknorris.API/static/css/main.e2fb7946.chunk.css",
+    "main.js": "/chucknorris.API/static/js/main.d4922ff5.chunk.js",
+    "main.js.map": "/chucknorris.API/static/js/main.d4922ff5.chunk.js.map",
+    "runtime-main.js": "/chucknorris.API/static/js/runtime-main.ec142cd4.js",
+    "runtime-main.js.map": "/chucknorris.API/static/js/runtime-main.ec142cd4.js.map",
+    "static/js/2.dcb0cc1d.chunk.js": "/chucknorris.API/static/js/2.dcb0cc1d.chunk.js",
+    "static/js/2.dcb0cc1d.chunk.js.map": "/chucknorris.API/static/js/2.dcb0cc1d.chunk.js.map",
+    "index.html": "/chucknorris.API/index.html",
+    "static/css/main.e2fb7946.chunk.css.map": "/chucknorris.API/static/css/main.e2fb7946.chunk.css.map",
+    "static/js/2.dcb0cc1d.chunk.js.LICENSE.txt": "/chucknorris.API/static/js/2.dcb0cc1d.chunk.js.LICENSE.txt",
+    "static/media/spin.c3201bb9.svg": "/chucknorris.API/static/media/spin.c3201bb9.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ec142cd4.js",
+    "static/js/2.dcb0cc1d.chunk.js",
+    "static/css/main.e2fb7946.chunk.css",
+    "static/js/main.d4922ff5.chunk.js"
+  ]
+}
