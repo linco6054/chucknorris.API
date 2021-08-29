@@ -7,7 +7,7 @@ import Card from "./Card";
 function Home() {
   const info = useSelector((state) => state?.categories_list);
   const { loading, categories, error } = info;
-  console.log({ categories });
+  console.log(categories);
   return loading ? (
     <Spiner />
   ) : error ? (
