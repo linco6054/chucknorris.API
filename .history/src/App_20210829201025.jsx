@@ -9,7 +9,7 @@ import Joke from "./routes/Joke";
 function App() {
   const dispatch = useDispatch();
   const categories = useSelector((state) => state?.categories_list?.categories);
-
+  
   useEffect(() => {
     if (!categories) {
       console.log("No categories found");
@@ -21,7 +21,7 @@ function App() {
       <Header />
       <Switch>
         <Route path="/" component={Home} />
-        <Route path="/:category" component={Joke} />
+        <Route path="/category/:category" component={Joke} />
       </Switch>
     </BrowserRouter>
   );
