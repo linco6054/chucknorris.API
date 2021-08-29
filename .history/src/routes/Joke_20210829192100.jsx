@@ -12,7 +12,7 @@ function Joke(props) {
   const jokesInfo = useSelector((state) => state.joke);
   const { joke, loading, error } = jokesInfo;
   const history = useHistory();
-  console.log({ category });
+
   useEffect(() => {
     if (category) {
       dispatch(getJokeAction(category));

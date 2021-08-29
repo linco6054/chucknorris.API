@@ -6,7 +6,7 @@ function Card({ cat }) {
 
   return (
     <div
-      onClick={() => history.push(`/category/${cat}`)}
+      onClick={() => history.push(`/cat${cat}`)}
       className="container bg-white h-24 w-32 flex mx-2 items-center shadow-sm hover:shadow-2xl
      justify-center rounded-md cursor-pointer mt-4 "
     >

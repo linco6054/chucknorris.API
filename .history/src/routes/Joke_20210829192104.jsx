@@ -7,12 +7,14 @@ import { getJokeAction } from "../redux/actions/categoriesActions";
 import JokeCard from "./JokeCard";
 
 function Joke(props) {
+
+  
   const { category } = useParams();
   const dispatch = useDispatch();
   const jokesInfo = useSelector((state) => state.joke);
   const { joke, loading, error } = jokesInfo;
   const history = useHistory();
-  console.log({ category });
+
   useEffect(() => {
     if (category) {
       dispatch(getJokeAction(category));

@@ -22,7 +22,7 @@ function App() {
       <Header />
       <Switch>
         <Route path="/" exact component={Home} />
-        <Route path="/category/:category" component={Joke} />
+        <Route path="/category/:" component={Joke} />
       </Switch>
     </BrowserRouter>
   );
