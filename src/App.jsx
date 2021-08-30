@@ -20,8 +20,8 @@ function App() {
     <BrowserRouter>
       <Header />
       <Switch>
-        <Route path="/" component={Home} />
-        <Route path="/chucknorris.API/:category" component={Joke} />
+        <Route path="/" exact component={Home} />
+        <Route path="/:category" component={Joke} />
       </Switch>
     </BrowserRouter>
   );

@@ -25,7 +25,7 @@ export const getJokeAction = (cat) => async (dispatch, getState) => {
     categories_list: { categories },
   } = getState();
 
-  if (categories.includes(cat)) {
+  if (categories?.includes(cat)) {
     dispatch({ type: CONSTANTS.joke.USER_JOKE_RESET });
     dispatch({ type: CONSTANTS.joke.USER_JOKE_REQUEST });
     try {
